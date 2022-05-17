@@ -2,7 +2,7 @@ Mover guy;
 
 void setup() {
     fullScreen();
-    size(500, 500);
+    //size(500, 500);
     background(40);
     noCursor();
     smooth();

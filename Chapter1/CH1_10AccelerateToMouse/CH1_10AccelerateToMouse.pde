@@ -13,7 +13,7 @@ void setup() {
     fullScreen();
     noCursor();
     textSize(24);
-    size(1000, 800);
+    //size(1000, 800);
     background(24);
     stroke(255);
     fill(255);

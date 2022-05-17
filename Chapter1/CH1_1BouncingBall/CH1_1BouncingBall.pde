@@ -8,7 +8,7 @@ float maxySpeed;
 
 void setup() {
     fullScreen();
-    size(600, 300);
+    //size(600, 300);
     background(24);
     frameRate(60);
 

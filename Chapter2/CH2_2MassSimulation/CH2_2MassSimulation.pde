@@ -7,7 +7,7 @@ Mover[] balloons;
 
 void setup() {
     fullScreen();
-    size(1000, 500);
+    //size(1000, 500);
     background(24);
     textSize(24);
     balloons = new Mover[1000];

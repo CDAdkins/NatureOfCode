@@ -3,7 +3,7 @@ Mover[] fellas;
 
 void setup() {
     fullScreen();
-    size(500, 500);
+    //size(500, 500);
     background(0, 80, 0);
     noCursor();
     smooth();

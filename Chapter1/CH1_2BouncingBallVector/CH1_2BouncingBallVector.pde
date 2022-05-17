@@ -5,7 +5,7 @@ boolean physics = false;
 
 void setup() {
     fullScreen();
-    size(1000, 500);
+    //size(1000, 500);
     background(24);
     frameRate(60);
     smooth();

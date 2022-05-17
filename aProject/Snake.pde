@@ -8,7 +8,7 @@ class Snake {
     float maxSpeed;
     float size;
     color myColor;
-    ellipse[] body = new ellipse[10];
+    //ellipse[] body = new ellipse[10];
 
     // Constructor
     Snake() { // Default no arg

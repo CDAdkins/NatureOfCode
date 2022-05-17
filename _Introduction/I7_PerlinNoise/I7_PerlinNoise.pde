@@ -4,7 +4,7 @@ float t; // Perlin noise time increment, smaller is smoother
 
 void setup() {
     fullScreen();
-    size(1000, 400);
+    //size(1000, 400);
     background(24);
     noStroke();
     textSize(50);

@@ -9,7 +9,7 @@ Walker[] yellowGuys;
 void setup() {
     fullScreen();
     noCursor();
-    size(400, 400);
+    //size(400, 400);
 
     numWalkers = 100; // Change this to change the number of total walkers.
     walkerSize = 10; // Change this to change the size of each walker.
@@ -30,7 +30,7 @@ void setup() {
 }
 
 void draw() {
-    background(24);
+    //background(24);
     for (int i = 0; i < numWalkers; i++) {
         redGuys[i].display();
         blueGuys[i].display();

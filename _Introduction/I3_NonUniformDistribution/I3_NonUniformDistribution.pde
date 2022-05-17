@@ -2,7 +2,7 @@ Walker[] flies;
 
 void setup() {
     fullScreen();
-    size(700, 700);
+    //size(700, 700);
     background(24);
     flies = new Walker[2000];
 

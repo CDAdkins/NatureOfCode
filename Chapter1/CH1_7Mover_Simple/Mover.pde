@@ -52,7 +52,7 @@ class Mover {
         } else if (location.x < 0 + size/2) { // If too far left
             location.x = width - size/2;
         } else if (location.y > height - size/2) { // If too low
-            location.y = 0 + size/2;
+            location.y = size/2;
         } else if (location.y < 0 + size/2) { // If too high
             location.y = height - size/2;
         }

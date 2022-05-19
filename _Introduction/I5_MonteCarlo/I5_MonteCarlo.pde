@@ -24,7 +24,7 @@ void draw() {
     if (!pause) {
         for (int i = 0; i < generations; i++) { // This code runs once per 'generation' defined above 
             // chosenNum = int(random(0, numRectangles)); // This is where we generate a random number with a min of 0
-            randomNumbers[choseNumber()]--;               // and a max based on the number of rectangles.
+            randomNumbers[chooseNumber()]--;               // and a max based on the number of rectangles.
         }
 
         for (int i = 0; i < numRectangles; i++) { // Goes through every rectangle and redraws it with a new height based on the value of the corresponding int in randomNumbers.
@@ -34,7 +34,7 @@ void draw() {
 
 }
 
-int choseNumber() {
+int chooseNumber() {
     while(true) {
         p = int(random(100)); // p is a random int from 0-100
         chosenNum = int(random(100));
